@@ -39,7 +39,10 @@ const LoadingScreen = () => {
 
   return (
     <div className="fixed inset-0 bg-black flex items-center justify-center">
-      <h1 className="text-white text-4xl font-bold">{languages[currentLanguage]}</h1>
+      <div className="flex flex-col items-center mb-4">
+        <span className="text-white text-4xl mb-4">🙏</span>
+        <h1 className="text-white text-4xl font-bold">{languages[currentLanguage]}</h1>
+      </div>
     </div>
   );
 };
