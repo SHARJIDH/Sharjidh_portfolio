@@ -38,7 +38,7 @@ const menuItems: MenuItem[] = [
     id: "about",
     label: "ABOUT ME",
     submenu: [
-      { label: "Summary", path: "/about", isRoute: true },
+      { label: "Summary/Experience", path: "/about", isRoute: true },
       { label: "Skills", path: "/#skills", isRoute: false },
     ],
   },
