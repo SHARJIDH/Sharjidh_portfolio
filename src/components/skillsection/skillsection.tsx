@@ -111,7 +111,7 @@ const SkillsSection: React.FC = () => {
           }}
           className="mb-9 text-center text-xl font-semibold"
         >
-          Currently specialize in MERN. Learning NextJS and DevOps.
+          Currently specialize in MERN and NextJS. Learning DevOps.
         </motion.p>
         <div className="flex flex-wrap justify-center gap-4">
           {skills.map((skill, index) => (
